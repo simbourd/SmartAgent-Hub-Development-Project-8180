@@ -1,0 +1,162 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "settings": "Paramètres",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "yes": "Oui",
+    "no": "Non",
+    "ok": "OK",
+    "search": "Rechercher",
+    "add": "Ajouter",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "submit": "Envoyer",
+    "clear": "Effacer",
+    "reset": "Réinitialiser"
+  },
+  "auth": {
+    "login": "Se connecter",
+    "email": "Adresse email",
+    "password": "Mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "noAccount": "Pas encore de compte ?",
+    "createAccount": "Créer un compte",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "resetPasswordDesc": "Entrez votre email pour recevoir les instructions",
+    "sendInstructions": "Envoyer les instructions",
+    "backToLogin": "Retour à la connexion",
+    "emailSent": "Email envoyé ! Vérifiez votre boîte de réception.",
+    "invalidCredentials": "Identifiants invalides",
+    "emailRequired": "L'email est requis",
+    "emailInvalid": "Format d'email invalide",
+    "passwordRequired": "Le mot de passe est requis",
+    "passwordMinLength": "Le mot de passe doit contenir au moins 6 caractères",
+    "loginError": "Une erreur est survenue. Veuillez réessayer.",
+    "resetError": "Erreur lors de l'envoi",
+    "validEmailRequired": "Veuillez entrer un email valide",
+    "connecting": "Connexion...",
+    "sending": "Envoi...",
+    "title": "SmartAgent Hub",
+    "subtitle": "Connectez-vous à votre espace agents IA"
+  },
+  "dashboard": {
+    "title": "SmartAgent Hub",
+    "welcome": "Bienvenue dans SmartAgent Hub",
+    "welcomeDesc": "Sélectionnez un agent dans la barre latérale ou créez une nouvelle conversation pour commencer.",
+    "noConversation": "Conversation introuvable",
+    "noConversationDesc": "Sélectionnez une conversation ou créez-en une nouvelle.",
+    "createConversation": "Créer une conversation",
+    "recentConversations": "Conversations récentes",
+    "noConversations": "Aucune conversation pour le moment",
+    "you": "Vous",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre"
+  },
+  "chat": {
+    "conversationWith": "Conversation avec {{name}}",
+    "suggestions": "Suggestions pour commencer :",
+    "copyConversation": "Copier la conversation",
+    "deleteConversation": "Supprimer la conversation",
+    "typePlaceholder": "Tapez votre message...",
+    "attachFile": "Joindre un fichier",
+    "sendHint": "Appuyez sur Entrée pour envoyer, Shift+Entrée pour une nouvelle ligne",
+    "characterCount": "{{count}}/2000",
+    "errorMessage": "Désolé, je rencontre des difficultés techniques. Veuillez réessayer plus tard.",
+    "suggestions": {
+      "general": [
+        "Demandez de l'aide pour choisir le bon agent",
+        "Posez une question générale",
+        "Décrivez votre problème ou besoin"
+      ],
+      "support": [
+        "Signalez un problème technique",
+        "Demandez de l'aide pour utiliser un service",
+        "Posez une question sur le fonctionnement"
+      ],
+      "sales": [
+        "Demandez des informations sur nos produits",
+        "Obtenez un devis personnalisé",
+        "Discutez de vos besoins commerciaux"
+      ],
+      "marketing": [
+        "Explorez nos stratégies marketing",
+        "Demandez des conseils en communication",
+        "Discutez de votre présence en ligne"
+      ]
+    }
+  },
+  "agents": {
+    "chiefAgent": "Chef Agent",
+    "chiefAgentDesc": "Agent principal qui distribue les tâches",
+    "supportAgent": "Agent Support",
+    "supportAgentDesc": "Assistance technique et support client",
+    "salesAgent": "Agent Commercial",
+    "salesAgentDesc": "Vente et relation client",
+    "marketingAgent": "Agent Marketing",
+    "marketingAgentDesc": "Stratégie marketing et communication"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "agents": "Agents IA",
+    "general": "Général",
+    "agentManagement": "Gestion des Agents IA",
+    "newAgent": "Nouvel Agent",
+    "editAgent": "Modifier l'agent",
+    "createAgent": "Nouvel agent",
+    "agentName": "Nom",
+    "agentNamePlaceholder": "Nom de l'agent",
+    "avatar": "Avatar",
+    "description": "Description",
+    "descriptionPlaceholder": "Description de l'agent",
+    "webhookUrl": "URL Webhook n8n",
+    "webhookUrlPlaceholder": "https://n8n.example.com/webhook/agent-name",
+    "color": "Couleur",
+    "active": "Actif",
+    "activate": "Activer",
+    "deactivate": "Désactiver",
+    "generalSettings": "Paramètres Généraux",
+    "theme": "Thème",
+    "themeDesc": "Choisir entre le mode clair et sombre",
+    "language": "Langue",
+    "languageDesc": "Choisir la langue de l'interface",
+    "version": "Version",
+    "versionInfo": "SmartAgent Hub v1.0.0"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "responses": {
+    "chiefAgent": [
+      "Je comprends votre demande. Laissez-moi analyser cela et rediriger vers le bon agent spécialisé.",
+      "Parfait ! Je vais traiter votre demande et vous connecter avec l'expert approprié.",
+      "Merci pour votre message. Je vais coordonner avec l'équipe pour vous fournir la meilleure réponse."
+    ],
+    "supportAgent": [
+      "Je suis là pour vous aider avec votre problème technique. Pouvez-vous me donner plus de détails ?",
+      "Merci de m'avoir contacté. Je vais examiner votre demande de support immédiatement.",
+      "Je comprends votre problème. Voici quelques étapes que nous pouvons essayer ensemble."
+    ],
+    "salesAgent": [
+      "Excellent ! Je serais ravi de vous aider avec vos besoins commerciaux. Parlons de vos objectifs.",
+      "Merci pour votre intérêt. Je vais vous présenter nos meilleures solutions adaptées à votre situation.",
+      "C'est formidable que vous nous contactiez. Explorons ensemble les opportunités pour votre entreprise."
+    ],
+    "marketingAgent": [
+      "Intéressant ! Je peux vous aider à développer une stratégie marketing efficace. Quels sont vos défis actuels ?",
+      "Parfait timing ! Le marketing est crucial pour la croissance. Discutons de vos objectifs de communication.",
+      "Je suis spécialisé dans les stratégies marketing innovantes. Comment puis-je vous aider à atteindre vos objectifs ?"
+    ]
+  }
+}

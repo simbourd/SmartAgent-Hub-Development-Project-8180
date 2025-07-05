@@ -1,0 +1,162 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "search": "Search",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "clear": "Clear",
+    "reset": "Reset"
+  },
+  "auth": {
+    "login": "Sign In",
+    "email": "Email address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "createAccount": "Create account",
+    "resetPassword": "Reset password",
+    "resetPasswordDesc": "Enter your email to receive instructions",
+    "sendInstructions": "Send instructions",
+    "backToLogin": "Back to login",
+    "emailSent": "Email sent! Check your inbox.",
+    "invalidCredentials": "Invalid credentials",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email format",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "loginError": "An error occurred. Please try again.",
+    "resetError": "Error sending email",
+    "validEmailRequired": "Please enter a valid email",
+    "connecting": "Connecting...",
+    "sending": "Sending...",
+    "title": "SmartAgent Hub",
+    "subtitle": "Connect to your AI agents workspace"
+  },
+  "dashboard": {
+    "title": "SmartAgent Hub",
+    "welcome": "Welcome to SmartAgent Hub",
+    "welcomeDesc": "Select an agent from the sidebar or create a new conversation to get started.",
+    "noConversation": "Conversation not found",
+    "noConversationDesc": "Select a conversation or create a new one.",
+    "createConversation": "Create conversation",
+    "recentConversations": "Recent conversations",
+    "noConversations": "No conversations yet",
+    "you": "You",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode"
+  },
+  "chat": {
+    "conversationWith": "Conversation with {{name}}",
+    "suggestions": "Suggestions to get started:",
+    "copyConversation": "Copy conversation",
+    "deleteConversation": "Delete conversation",
+    "typePlaceholder": "Type your message...",
+    "attachFile": "Attach file",
+    "sendHint": "Press Enter to send, Shift+Enter for new line",
+    "characterCount": "{{count}}/2000",
+    "errorMessage": "Sorry, I'm experiencing technical difficulties. Please try again later.",
+    "suggestions": {
+      "general": [
+        "Ask for help choosing the right agent",
+        "Ask a general question",
+        "Describe your problem or need"
+      ],
+      "support": [
+        "Report a technical issue",
+        "Ask for help using a service",
+        "Ask about how something works"
+      ],
+      "sales": [
+        "Ask for information about our products",
+        "Get a personalized quote",
+        "Discuss your business needs"
+      ],
+      "marketing": [
+        "Explore our marketing strategies",
+        "Ask for communication advice",
+        "Discuss your online presence"
+      ]
+    }
+  },
+  "agents": {
+    "chiefAgent": "Chief Agent",
+    "chiefAgentDesc": "Main agent that distributes tasks",
+    "supportAgent": "Support Agent",
+    "supportAgentDesc": "Technical assistance and customer support",
+    "salesAgent": "Sales Agent",
+    "salesAgentDesc": "Sales and customer relations",
+    "marketingAgent": "Marketing Agent",
+    "marketingAgentDesc": "Marketing strategy and communication"
+  },
+  "settings": {
+    "title": "Settings",
+    "agents": "AI Agents",
+    "general": "General",
+    "agentManagement": "AI Agent Management",
+    "newAgent": "New Agent",
+    "editAgent": "Edit agent",
+    "createAgent": "New agent",
+    "agentName": "Name",
+    "agentNamePlaceholder": "Agent name",
+    "avatar": "Avatar",
+    "description": "Description",
+    "descriptionPlaceholder": "Agent description",
+    "webhookUrl": "n8n Webhook URL",
+    "webhookUrlPlaceholder": "https://n8n.example.com/webhook/agent-name",
+    "color": "Color",
+    "active": "Active",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "generalSettings": "General Settings",
+    "theme": "Theme",
+    "themeDesc": "Choose between light and dark mode",
+    "language": "Language",
+    "languageDesc": "Choose interface language",
+    "version": "Version",
+    "versionInfo": "SmartAgent Hub v1.0.0"
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "English"
+  },
+  "responses": {
+    "chiefAgent": [
+      "I understand your request. Let me analyze this and redirect to the right specialized agent.",
+      "Perfect! I'll process your request and connect you with the appropriate expert.",
+      "Thank you for your message. I'll coordinate with the team to provide you with the best response."
+    ],
+    "supportAgent": [
+      "I'm here to help you with your technical issue. Can you give me more details?",
+      "Thank you for contacting me. I'll examine your support request immediately.",
+      "I understand your problem. Here are some steps we can try together."
+    ],
+    "salesAgent": [
+      "Excellent! I'd be delighted to help you with your business needs. Let's talk about your goals.",
+      "Thank you for your interest. I'll present our best solutions tailored to your situation.",
+      "It's wonderful that you're contacting us. Let's explore opportunities for your business together."
+    ],
+    "marketingAgent": [
+      "Interesting! I can help you develop an effective marketing strategy. What are your current challenges?",
+      "Perfect timing! Marketing is crucial for growth. Let's discuss your communication goals.",
+      "I specialize in innovative marketing strategies. How can I help you achieve your objectives?"
+    ]
+  }
+}
